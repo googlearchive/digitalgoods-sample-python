@@ -1,0 +1,18 @@
+application: iap-py
+version: 1-1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /images
+  static_dir: images
+
+- url: /versions/templates
+  static_dir: versions/templates
+  mime_type: "text/plain"
+
+- url: /.*
+  script: main.py
