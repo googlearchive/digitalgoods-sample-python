@@ -50,11 +50,11 @@ class MainHandler(webapp.RequestHandler):
                 'request': request_info}
 
     # create JWT for first item
-    request_info.update({'name': 'Golden Gate Bridge Annyversary', 'price': '20.00'})
+    request_info.update({'name': 'Golden Gate Bridge Aniversary', 'price': '20.00'})
     token_1 = jwt.encode(jwt_info, SELLER_SECRET)
 
     # create JWT for second item
-    request_info.update({'name': 'Drive Inn Annyversary', 'price': '25.00'})
+    request_info.update({'name': 'Drive Inn Aniversary', 'price': '25.00'})
     token_2 = jwt.encode(jwt_info, SELLER_SECRET)
 
     # update store web page
