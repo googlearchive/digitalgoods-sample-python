@@ -7,6 +7,12 @@ body {
   font-size: 10pt;
   text-align: center;
 }
+    
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+}
 
 li {
   list-style: none;
@@ -28,7 +34,7 @@ table {
 
 img {
   display: block;
-  width: 230px;
+  width: 380px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px; 
@@ -42,8 +48,9 @@ img {
   width: 120px;
   color: white;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: bold; 
+  font-family: 'Open Sans', sans-serif;
   height: 35px;
-  background-color: blue;
+  background-color: #427fed;
   margin: auto;
 }
