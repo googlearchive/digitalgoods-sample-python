@@ -39,8 +39,8 @@ img {
   margin-right: auto;
   margin-top: 5px; 
   margin-bottom: 5px;  
-  border: 2px solid green;
-  padding: 2px 2px 2px 2px;
+  /* border: 2px solid green; */
+  /* padding: 2px 2px 2px 2px;  */
 }
 
 .buy-button {
